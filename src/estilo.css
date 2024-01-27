@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #03012C;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 10px;
+
+    border-radius: 5px;
+    background-color: white;
+}
+
+.main-container .container-busca {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-busca #input_busca {
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+}
+
+.container-busca .botao_busca {
+    cursor: pointer;
+
+    border: none;
+    background-color: transparent;
+}
+
+.botao_busca :hover {
+    border-radius: 100px;
+    box-shadow: 0 0 10px #bfebf7;
+}
+
+.botao_busca :active {
+    border-radius: 200px;
+    background-color: #D1F5FF;
+
+}
+
+.esconde {
+    display: none;
+}
+
+.main-container #container-erro {
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+#container-erro p {
+    padding: 0 10px;
+    width: 50vw;
+}
+
+.main-container #container-resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    border-top: 1px solid rgba(126, 125, 125, 0.51);
+}
+
+#container-resultado .icon_tempo_atual {
+    width: 100px;
+}
+
+#container-resultado .temperatura {
+    font-weight: 600;
+    font-size: x-large;
+}
+
+#container-resultado .descricao {
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+#resultado-descricao {
+    display: flex;
+}
+
+.info_adicional_umidade {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.info_adicional_vento {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    margin: 20px;
+    color: white;
+    text-transform: capitalize;
+}

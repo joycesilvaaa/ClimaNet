@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClimaNet</title>
+    <link rel="stylesheet" href="../src/estilo.css">
+    <script src="../src/scripts.js" defer></script>
+</head>
+
+<body>
+   
+    <main class="main-container">
+        <div class="container-busca">
+            <img src="../src/imagens/icon_local.png" alt="Icon de Localização">
+            <input type="text" name="input_busca" id="input_busca" placeholder="Digite aqui sua Localização">
+            <button class="botao_busca">
+                <img src="../src/imagens/icon_pesquisa.png" alt="Icon de Pesquisa">
+            </button>
+        </div>
+        <div class="esconde">
+            <div id="container-erro">
+                <img src="../src/imagens/Error 404.png" alt="Imagem de Erro">
+                <p class="messagem_erro"></p>
+            </div>
+            <div id="container-resultado">
+                <img class="img_erro">
+                <p class="mensagem_erro"></p>
+                <img class="icon_tempo_atual">
+                <p class="texto temperatura"></p>
+                <p class="texto descricao"></p>
+                <div id="resultado-descricao">
+                    <div class="info_adicional_umidade">
+                        <img class="icon_umidade">
+                        <div class="descricao_umidade">
+                            <p class="texto porcetagem"></p>
+                            <p class="texto descricao_umi"></p>
+                        </div>
+                    </div>
+                    <div class="info_adicional_vento">
+                        <img class="icon_vento">
+                        <div class="descricao_vento">
+                            <p class="texto quilometros"></p>
+                            <p class="texto descricao_vent"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h2> © 2024| Desenvolvido por Joyce Silva</h2>
+    </footer>
+</body>
+
+</html>
