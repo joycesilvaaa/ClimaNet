@@ -68,13 +68,16 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin: 8px;
 
     text-align: center;
+    border-top: 1px solid rgba(126, 125, 125, 0.51);
 }
 
 #container-erro p {
     padding: 0 10px;
     width: 50vw;
+    max-width: 250px;
 }
 
 .main-container #container-resultado {
